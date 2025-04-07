@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration:none ;
+    font-family: sans-serif;
+    }
+    body{
+    background: rgba(255, 255, 255, 0.4);
+    
+    }
+    header{
+    padding: 10px 50px;
+    background: #bb0b9588;
+    }
+    .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+    .navigation .logo{
+    width: 60px;
+    
+    }
+    .navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    }
+        .navigation ul li {
+            color: #080808;
+            font-weight: 600;
+            padding-bottom: 4px;
+            transition: all 0.5s ease-in-out;
+    
+        }
+        .navigation ul li a:hover{
+            color: #1a0303;
+            border-bottom: 1px solid#fff;
+    
+        }
+        .navigation .check{
+            color: rgb(239, 241, 243);
+            border-bottom: #fff;
+        }
+        .navigation .check1{
+            color: rgb(239, 241, 243);
+            border-bottom: #fff;
+        }
+        .navigation .check2{
+            color: rgb(239, 241, 243);
+            border-bottom: #fff;
+        }
+         .navigation .check3{
+            color: rgb(239, 241, 243);
+            border-bottom: #fff;
+        } 
+        .navigation .check4{
+            color: rgb(239, 241, 243);
+            border-bottom: #fff;
+        }
+        .navigation .check5{
+            color: rgb(239, 241, 243);
+            border-bottom: #fff;
+        }
+        .navigation .check6{
+            color: rgb(239, 241, 243);
+            border-bottom: #fff;
+        }
+    main section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5rem 10rem;
+    
+    }
+    .main-text img{
+        width: 15rem;
+        margin-bottom: 3vh;
+    
+    }
+        .main-text h3{
+            font-size: 3.5rem;
+            margin-bottom: 2rem;
+    
+        }
+        .main-text p{
+            margin-bottom: 1.5rem;
+    
+        }
+        .main-text h6{
+            color: azure;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+    
+        }
+        .main-text .btn{
+            padding: 10px 25px;
+            background: #0071e3;
+            border-radius: 20px;
+            color: #723a3a;
+            font-size: 1.5rem;
+            transition: all 0.5s;
+    
+        }
+            .main-text .btn:hover{
+                opacity :85;
+    
+            }
+            .main-text .text h5{
+                font-size: 1rem;
+                color: #1d1717;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+    
+            }
+                .main-text .content{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+    
+                }
+                .main-text .content span{
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    box-shadow: 1px 1px #0e0101;
+                    transition: all 0.5s;
+    
+                }
+                .main-text .content span:hover{
+                    opacity: .80;
+    
+                }
+                #green{
+                background: #74aa71;    
+                }
+                #pink{
+                    background: rgb(223, 211, 214);
+                }
+                #blue{
+                    background:rgb(137, 137, 226)
+                }
+                #purple{
+                    background:rgb(235, 129, 208)
+                }
+                #red{
+                    background:rgb(158, 22, 22)
+                }
+                #grey{
+                    background:rgb(233, 117, 117)
+                }
+                #white{
+                    background:rgb(3, 0, 0)
+                }
+                .main-img{
+                    transition: all 1s ease;
+                    z-index: 100;
+                }
+                
+                .main-img img{
+                    width: 500px;
+                   
+                }
+                .circle{
+                    position: absolute;
+                    top: 0;
+                    left:0;
+                    width: 100%;
+                    height: 120%;
+                    background: #fff;
+                    clip-path: circle(800px at right 1000px);
+                }
+                

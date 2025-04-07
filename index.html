@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="rm.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>BTS</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#"><img src="pngbts.png" alt="logo do BTS" class="logo"></a>
+            <ul>
+                <li><a href="#" class="check">Rm</a></li>
+                <li><a href="#" class="check1">Jin</a></li>
+                <li><a href="#" class="check2">Suga</a></li>
+                <li><a href="#" class="check3">Jhope</a></li>
+                <li><a href="#" class="check4">Jimin</a></li>
+                <li><a href="#" class="check5">V</a></li>
+                <li><a href="#" class="check6">Jungkook</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="main-text">
+                <img src="btts.png" alt="">
+                <h3>Seu novo poder.</h3>
+                <p>Jimin é um homem incrível e um corpo perfeito como um anjo</p>
+                <h6>Conheça os membros</h6>
+                <a href="#" class="btn">Conhecer</a>
+                <div class="text">
+                    <h5>Escolha o membro:</h5>
+                </div>
+                <div class="content">
+                    <span id="green" onclick="imgSlider('nam..png'); circlechange('#74aa71')"></span>
+                    <span id="pink"onclick="imgSlider('hope.png'); circlechange('rgb(223, 211, 214)')"></span>
+                    <span id="blue"onclick="imgSlider('jkblue.png'); circlechange('rgb(137, 137, 226)')"></span>
+                    <span id="purple"onclick="imgSlider('jinjico.png'); circlechange('rgb(235, 129, 208)')"></span>
+                    <span id="red"onclick="imgSlider('v.png'); circlechange('rgb(158, 22, 22)')"></span>
+                    <span id="grey"onclick="imgSlider('pak.png'); circlechange('rgb(233, 117, 117)')"></span>
+                    <span id="white"onclick="imgSlider('sugg.png'); circlechange('rgb(3, 0, 0)')"></span>
+                </div>
+            </div>
+            <div class="main-img">
+                <img src="rm.png" alt="Imagem do rm" id="rm">
+            </div>
+        </section>
+    </main>
+    <script type="text/javascript">
+
+
+        function imgSlider(e){
+            document.querySelector('#rm').src=e;
+        }
+function circlechange(color){
+    const circle = document.querySelector('.circle')
+    circle.style.background = color;
+}
+
+
+
+    </script>
+</body>
+</html>
